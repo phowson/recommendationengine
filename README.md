@@ -29,7 +29,7 @@ since the scarf purchase is much more common in the set P(S(Louis Vuitton Scarf)
 
 This algorithm is simple and works very well when we have a limited number of products. If we have n products then, effectively we need to work out a sparse matrix of scores for, at worst case, all n^2 combinations of products, then evaluate which elements in each row of this matrix we should report as recommendations (i.e. sort each row of the matrix by score). It has a worst case complexity which is of O(n^2) therefore which is impractical for large values of n.
 
-A different approach is to try and identify customers who are like the current customer in terms of their purchases. Again an easy approach but if the number of customers is large and the number of purchases per customer is large then you end up with computational difficulties too. 
+A different approach is to try and identify customers who are like the current customer in terms of their purchases. Again an easy approach but if the number of customers is large and the number of purchases per customer is large then you end up with computational difficulties too. Spacially indexing the customer space based upon previous purchases is possible, but will end up with space complexity which is quadratic in terms of the number of products. 
 
 I therefore aim to present an algorithm which approximates the above and I want to do it in no worse than O(t log t) time where t is the number of transactions and O(n) memory complexity where n is the number of products.
 
