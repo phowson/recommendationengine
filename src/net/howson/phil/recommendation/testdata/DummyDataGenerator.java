@@ -10,11 +10,11 @@ public class DummyDataGenerator {
 //
 	private static final int NUM_PRODUCTS = 100_000;
 	private static final int NUM_CUSTOMERS = 100_000;
-	private static final int NUM_TRANSACTIONS = 30_000_000;
+	private static final int NUM_TRANSACTIONS = 60_000_000;
 	private static final double customerCacuhyScale = 0.1;
 	private static final double productCacuhyScale = 0.1;
 
-	private static final int CORRELATED_PRODUCTS = 100;
+	private static final int CORRELATED_PRODUCTS = 1000;
 
 	private static final int CORRELATED_PRODUCTS_MID = CORRELATED_PRODUCTS / 2;
 	private static final int BUFFER_SIZE = 1024 * 1024;
