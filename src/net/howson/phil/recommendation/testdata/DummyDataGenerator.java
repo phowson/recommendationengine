@@ -7,7 +7,7 @@ import java.io.PrintStream;
 import java.util.Random;
 
 public class DummyDataGenerator {
-
+//
 	private static final int NUM_PRODUCTS = 100_000;
 	private static final int NUM_CUSTOMERS = 100_000;
 	private static final int NUM_TRANSACTIONS = 30_000_000;
